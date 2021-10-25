@@ -11,33 +11,33 @@
   <form action="https://www.google.com" target="_blank" method="post" style="margin: 40px 250px 140px 250px; background-color: white; padding: 20px 30px 20px 30px">
     <h1 style="text-align: center;">Application form</h1>
     <label for="name1">Ad:</label><br>
-    <input type="text" name="name1" id="name1"><br><br>
+    <input type="text" name="name1" id="name1" required><br><br>
     
     <label for="name2">Soyad:</label><br>
-    <input type="text" name="name2" id="name2"><br><br>
+    <input type="text" name="name2" id="name2" required><br><br>
 
     <label for="psw1">Şifrə:</label><br>
-    <input type="password" name="psw1" id="psw1"><br><br>
-
-    <label for="gender1">Cinsinizi seçin:</label><br>
+    <input type="password" name="psw1" id="psw1" required min="6" max="14"><br><br>
+    
+    <span>Cinsinizi seçin:</span><br>
     <label for="gender1">K</label>
     <input type="radio" name="gender1" id="gender1">
     <label for="gender2" style="margin-left: 40px;">Q</label>
     <input type="radio" name="gender1" id="gender2">
     <br>
     <br>
-<label for="cb1">Bitirdiyiniz təhsil dərəcələrini seçin:</label>
+<span>Bitirdiyiniz təhsil dərəcələrini seçin:</span>
 <br>
-<input type="checkbox" name="cb1" id="orta">
+<input type="checkbox" name="cb1" id="orta" style="margin-left: 0px;">
 <label for="orta">Orta</label>
 <br>
-<input type="checkbox" name="cb1" id="bakalavr">
+<input type="checkbox" name="cb1" id="bakalavr" style="margin-left: 0px;" >
 <label for="bakalavr">Bakalavr</label>
 <br>
-<input type="checkbox" name="cb1" id="magistr">
+<input type="checkbox" name="cb1" id="magistr" style="margin-left: 0px;">
 <label for="magistr">Magistr</label>
 <br>
-<input type="checkbox" name="cb1" id="doktor">
+<input type="checkbox" name="cb1" id="doktor" style="margin-left: 0px;"> 
 <label for="doktor">Doktor</label>
 <br>
 <br>
